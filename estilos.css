@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+header{
+    background-color: brown;
+    padding: 10px;
+}
+.nav{
+    display: inline-block;
+    background-color: maroon;
+    color: darkgray;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0.5%;
+    position: relative;
+}
+
+
+.nav:hover{
+    background-color:rgb(223, 65, 65);
+}
+
+menu{
+    padding: 10px;
+}
+#Título1{
+    text-align-last: left;
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    padding: 1px;
+    margin: 20px;
+}
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:beige;
+    background-color: brown;
+    text-align: center;
+    width: 100%;
+    
+}
+.logo{
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.logo:hover{
+    color: mediumblue;
+}
+
+#formulario{
+    text-align: justify;
+    
+}
+
+fieldset{
+    background-color: grey;
+    border-radius: 5px;
+    font-weight:lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+input{
+    margin: 0.3%;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+    display: inline;
+    
+}
+
+.comentarios{
+    background-color: grey;
+    padding-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.boton{
+    background-color: rgb(223, 65, 65);
+    color: cornsilk;
+    width: 33%;
+   
+}
+
+#cajaboton{
+    margin-left: 25%;
+    margin-top: 1vw;
+}
+
+textarea{
+    border-radius: 5px;
+    position: relative;
+    width: 90%;
+    height: 90%;
+}
+
+#clientes{
+    margin-left: 80px;
+}
+
+
+.bloque-imagenes-clientes{
+    display: inline;
+    width: 18%;
+    padding: 5px;
+    
+}
+
+img{
+    padding: 5px;
+}
+
+.img-linea{
+    display: inline-block;
+    background-color: pink;
+    padding: 0;
+    margin: 3px;
+}
+
+.img-linea:hover{
+    background-color: rosybrown;
+}
