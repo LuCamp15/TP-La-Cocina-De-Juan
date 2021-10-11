@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1b75ab4803.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css\estilos.css">
+    <title>Registrarse</title>
+</head>
+<body>
+    <body>
+        <header>
+            <nav>
+            <a class="nav" href="index.html">Home</a>
+            <a class="nav" href="acercade.html">Acerca de</a>
+            <a class="nav" href="contacto.html">Contacto</a>
+            <a class="nav" href="registrarse.html">Registrarse</a>
+            <a class="nav" href="sucursales.html">Sucursales</a>
+            <a class="nav" href="nuestrosclientes.html">Nuestros Clientes</a>
+            </nav>
+            <h1>La cocina de Juan</h1>
+        </header>
+        <menu>
+            <form action="Link" method="POST" target="_blank"></form>
+            <h2>Formulario de Registro</h2>
+            <br>
+            <fieldset>
+                <h3>Datos personales:</h3>
+                <br>
+                Nombre: <input type="text" name="Nombre" size="30" maxlength="10">
+                Apellido: <input type="text" name="Apellido" size="30" maxlength="10">
+                <br>
+                <br>
+                <p>Dirección:</p>
+                <br>
+                Calle: <input type="text" name="Direccion" id="Dirección" placeholder="Ingrese su calle aqui...">
+                Número: <input type="number" name="numero" id="numero" placeholder="Ingrese el número">
+                Ciudad: <input type="text" name="ciudad" id="ciudad" placeholder="Localidad">
+                Código Postal: <input type="number" name="Codigo postal" id="codigo postal" placeholder="Ingrese su cod postal">
+                <br>
+                <br>
+                Teléfono: <input type="tel" name="telefono" id="telefono" placeholder="Ingrese su teléfono">
+                Fecha de Nac: <input type="date" name="fecha de nac" id="fecha de nac" placeholder="dd/mm/aaaa">
+                Mail: <input type="email" name="mail" id="mail">
+                <br><br>
+                Género:
+                <input type="radio" name="genero" id="genero" value="Hombre">Hombre
+                <input type="radio" name="genero" id="genermo" value="Mujer">Mujer
+                <input type="radio" name="genero" id="genero" value="Autopercibido">Autopercibido
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <h3>Conocimientos previos:</h3>
+                <br>
+                Especialidades:
+                <input type="checkbox" name="cocina" id="cocina" value="Repostería"> Repostería
+                <input type="checkbox" name="cocina" id="cocina" value="Cocina tradicional"> Cocina tradicional
+                <input type="checkbox" name="cocina" id="cocina" value="Mermeladas y dulces"> Mermeladas y dulces
+                <br><br>
+                Estudios:
+                <select name="estudios" id="estudios">
+                    <option value="Escuela de cocina">Escuela de cocina</option>
+                    <option value="Cursos">Cursos cortos</option>
+                    <option value="Sin estudios">Sin estudios</option>
+                </select>
+                <br>
+            </fieldset>
+                <br>
+            <div class="comentarios">
+                <p>Comentarios:</p>
+                <br>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="5" >Dejanos tus comentarios...</textarea>
+                <br>
+            </div>
+            <div id=cajaboton>
+                <input class=boton type="submit" value="Enviar">
+                <input class=boton type="reset" value="Borrar">
+            </div>
+            
+ 
+        </menu>
+        <footer>
+            <br>
+            <p>Seguinos en las Redes:</p>
+            <a class="logo" href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a class="logo" href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <br>
+            <p>Derechos reservados @2021</p>
+            <br>
+        </footer>
+        
+    
+</body>
+</html>
